@@ -8,9 +8,6 @@ const authenticate = require("../middleware/authenticate")
 
 
 
-router.get('/',(req,res)=>{
-    res.send("Hello world from the server router");
-});
 
 router.post('/register', async (req,res)=>{
 
