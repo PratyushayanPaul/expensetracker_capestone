@@ -81,7 +81,7 @@ const Track = () =>{
             console.log("Data not updated");
         }
         else{
-            window.alert("Transaction added successfully");
+            window.alert("Transaction added successfully/History updated");
             console.log("Transaction added");
             setUserData({...userData, Trans:"", amount:""});
             reload();
