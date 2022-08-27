@@ -142,7 +142,7 @@ const Track = () =>{
                 <label id="trackhead2">Amount <br/> (negative - expense, positive - income)</label>
                 <input type="number" id="amount" name="amount" value={userData.amount} onChange={handleInputs} placeholder="Enter amount..."/>
                 </div>
-                <button onClick={addTran} className="btn">Add transaction</button>
+                <button onClick={addTran} className="btn">Add transaction/Check history</button>
         </form>
         </div>
     </form>
