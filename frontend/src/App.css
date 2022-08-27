@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Maze&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#logo-img{
+  width: 80px;
+  height: 80px;
+  border-radius: 70% 70% 70% 70%;
+}
+
+.registration{
+  text-align: center;
+  margin-top: 10px;
+  background-color: DodgerBlue;
+  color: black;
+  font-family: 'Righteous', cursive;
+  text-transform: capitalize;
+  transition: 0.5s all;
+}
+
+#register_heading{
+  font-family: 'Righteous', cursive;
+  font-size: 100px;
+  transition: 0.5s all;
+}
+
+#register_heading:hover{
+  font-size: 150px;
+}
+
+#register_img{
+  width: 300px;
+  height: 300px;
+  margin-top: -80px;
+  border-radius: 50% 50% 50% 50%;
+  transition: 0.5s all;
+}
+
+#register_img:hover{
+  width: 200px;
+  height: 200px;
+}
+
+#Submit{
+  font-size: large;
+  transition: 0.5s all;
+}
+
+#Submit:hover{
+  background-color: green;
+  color: black;
+  font-size: x-large;
+  border: 3px solid black;
+}
+
+.register_img{
+  background-color: white;
+}
+
+.register-image-link{
+  color: yellowgreen;
+  font-size: large;
+  font-weight: bold;
+  transition: 0.5s all;
+}
+.register-image-link:hover{
+  color: green;
+  font-size: xx-large;
+}
+
+#navbarSupportedContent{
+
+  font-size: x-large;
+  font-family: 'Rubik Iso', cursive;
+  color: black;
+  transition: 0.5s all;
+}
+
+.nav-item active:hover, .nav-item:hover{
+  font-size: xx-large;
+  font-weight: bolder;
+
+}
+
+#navbar{
+  background-color: chocolate ;
+}
+
+.login{
+  text-align: center;
+  margin-top: 10px;
+  background-color: dodgerblue;
+  color: black;
+  font-family: 'Righteous', cursive;
+  transition: 0.5s all;
+}
+
+#login_heading{
+  font-family: 'Righteous', cursive;
+  font-size: 100px;
+  margin-bottom: 50px;
+  transition: 0.5s all;
+
+}
+
+#login_heading:hover{
+  font-size: 150px;
+}
+
+#login_img{
+  margin-top: -60px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50% 50% 50% 50%;
+  transition: 0.5s all;
+}
+
+#login_img:hover{
+  width: 150px;
+  height: 150px;
+
+}
+
+#Submit{
+  font-size: large;
+  transition: 0.5s all;
+}
+
+#Submit:hover{
+  background-color: green;
+  color: black;
+  font-size: x-large;
+  border: 3px solid black;
+}
+
+.login_img{
+  background-color: white;
+}
+
+.login-image-link{
+  color: yellowgreen;
+  font-size: large;
+  font-weight: bold;
+  transition: 0.5s all;
+}
+.login-image-link:hover{
+  color: green;
+  font-size: xx-large;
+}
+
+.home-page{
+  text-align: center;
+  height: 400px;
+  font-family: 'Amatic SC', cursive;
+}
+
+
+/* .home-title{
+  margin-top: 180px;
+  background-color: orange;
+  height: 150px;
+  padding: 2%;
+} */
+
+#nameh1{
+  padding: 2%;
+  background-color: slateblue;
+  margin-top: 150px;
+  font-size: 80px;
+
+}
+
+#homeh2{
+  padding: 2%;
+  font-size: 80px;
+  height: 120px;
+  font-family: 'DynaPuff', cursive;
+}
+
+#homeh2:hover{
+  color: cadetblue;
+  text-shadow: none;
+
+}
+
+#homeh3{
+  padding: 2%;
+  background-color: slateblue;
+  font-size: 80px;
+}
+.notfound-404{
+  margin-top: 130px;
+  padding: 1%;
+  background-color: skyblue;
+  height: 430px;
+  font-family: 'Silkscreen', cursive;
+}
+
+.error{
+    margin-top: 100px;
+    color: green;
+    background-color: black;
+    width: 2000px;
+    margin-left: -290px;
+    text-align: center;
+    padding: 3%;
+}
+
+#error-link{
+  margin-left: 45%;
+  padding: 0.2%;
+  background-color: blue;
+  color: black;
+  text-transform: uppercase;
+  font-size: x-large;
+  border-radius: 10% 10% 10% 10%;
+  font-family: 'Bebas Neue', cursive;
+}
+
+#tran-pos{
+  color: green;
+}
+
+#tran-neg{
+  color: red;
+}
+
+
